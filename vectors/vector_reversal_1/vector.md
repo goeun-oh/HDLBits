@@ -7,7 +7,7 @@
 
     I initially tried the following:
     
-'''systemverilog
+'''C
     
     assign out=in[0:7];
 '''    
@@ -17,7 +17,7 @@ but I realized this is not allowed in Verilog.
 2. Second Attempt:
     I tried hard coding with the following:
    
-'''systemverilog
+'''C
     
     assing out[0] = in[7] ...
     and so on
