@@ -7,18 +7,18 @@
 
     I initially tried the following:
     
-''' C 
+``` Verilog 
 assign out=in[0:7];
-'''    
+```    
 
 but I realized this is not allowed in Verilog.
     
 2. Second Attempt:
     I tried hard coding with the following:
    
-''' C
+``` Verilog
 assign out[0] = in[7] ...
 and so on
-'''
+```
 
 and now I realize that using concatenation and generate block is more efficient.
