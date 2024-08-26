@@ -8,6 +8,7 @@
     I initially tried the following:
     
 '''systemverilog
+    
     assign out=in[0:7];
     
 but I realized this is not allowed in Verilog.
@@ -16,6 +17,7 @@ but I realized this is not allowed in Verilog.
     I tried hard coding with the following:
    
 '''systemverilog
+    
     assing out[0] = in[7] ...
     and so on
 
