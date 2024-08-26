@@ -8,17 +8,16 @@
     I initially tried the following:
     
 '''systemverilog
-assign out=in[0:7];
-'''
+    assign out=in[0:7];
     
-    but I realized this is not allowed in Verilog.
+but I realized this is not allowed in Verilog.
     
 2. Second Attempt:
     I tried hard coding with the following:
    
 '''systemverilog
-assing out[0] = in[7] ...
-and so on
-'''
+    assing out[0] = in[7] ...
+    and so on
+
 
 and now I realize that using concatenation and generate block is more efficient.
