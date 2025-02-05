@@ -7,6 +7,7 @@ out[22] = ~a ^ c;
 ...
 out[ 1] = ~e ^ d;
 out[ 0] = ~e ^ e;
+![image](https://github.com/user-attachments/assets/525f63cc-44b1-462e-ab47-eefb445ad368)
 
 ## Explain
 
